@@ -44,3 +44,21 @@ In this example, the `remove_outliers` function will remove any data points in t
 
 to install this script on your environment use this command:
 `python setup.py sdist`
+
+## 4. Install this package from repo
+
+We can now install our package onto any computer with internet access!  
+
+We issue the command below to **install our package from GitHub**.
+
+> Make sure to replace `your-name` and `your-repo` with the appropriate text.  
+
+```
+pip install git+https://github.com/RamyGendy/myworkspacepackages.git
+```
+
+If you need to **install a later version** of your package, then use:  
+
+```
+pip install --upgrade git+https://github.com/RamyGendy/myworkspacepackages.git
+```
